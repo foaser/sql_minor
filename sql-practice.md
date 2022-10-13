@@ -114,6 +114,9 @@ WHERE price < 500
 https://sql-ex.ru/learn_exercises.php?LN=2
 
 ```sql
+SELECT distinct maker 
+FROM product 
+WHERE type='Printer'
 ```
 
 ## 3
@@ -121,6 +124,9 @@ https://sql-ex.ru/learn_exercises.php?LN=2
 https://sql-ex.ru/learn_exercises.php?LN=3
 
 ```sql
+SELECT model, ram, screen 
+FROM laptop 
+WHERE price > 1000
 ```
 
 ## 4
@@ -128,6 +134,9 @@ https://sql-ex.ru/learn_exercises.php?LN=3
 https://sql-ex.ru/learn_exercises.php?LN=4
 
 ```sql
+SELECT * 
+FROM printer 
+WHERE color = 'y'
 ```
 
 ## 5
@@ -135,6 +144,9 @@ https://sql-ex.ru/learn_exercises.php?LN=4
 https://sql-ex.ru/learn_exercises.php?LN=5
 
 ```sql
+SELECT model, speed, hd 
+FROM PC 
+WHERE (cd = '12x' or cd ='24x') and price < 600
 ```
 
 ## 6
