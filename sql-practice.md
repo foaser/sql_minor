@@ -154,6 +154,11 @@ WHERE (cd = '12x' or cd ='24x') and price < 600
 https://sql-ex.ru/learn_exercises.php?LN=6
 
 ```sql
+SELECT DISTINCT Product.maker, Laptop.speed
+FROM Product 
+JOIN Laptop 
+ON Product.model = Laptop.model
+WHERE hd >= 10
 ```
 
 ## 7
